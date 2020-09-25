@@ -9,6 +9,18 @@ buildscript {
         maven {
             url 'http://dl.bintray.com/jetbrains/intellij-plugin-service'
         }
+        //阿里云central仓库镜像
+        maven{
+            url 'https://maven.aliyun.com/repository/central'
+        }
+        //阿里云jcenter仓库镜像
+        maven{
+            url 'https://maven.aliyun.com/repository/public'
+        }
+        //阿里云google仓库镜像
+        maven{
+            url 'https://maven.aliyun.com/repository/google'
+        }
         mavenCentral()
         jcenter()
         google()
@@ -26,6 +38,18 @@ buildscript {
 
 allprojects {
     repositories {
+        //阿里云central仓库镜像
+        maven{
+            url 'https://maven.aliyun.com/repository/central'
+        }
+        //阿里云jcenter仓库镜像
+        maven{
+            url 'https://maven.aliyun.com/repository/public'
+        }
+        //阿里云google仓库镜像
+        maven{
+            url 'https://maven.aliyun.com/repository/google'
+        }
         mavenCentral()
         jcenter()
         google()
